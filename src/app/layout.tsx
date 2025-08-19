@@ -19,8 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar/>
-        <Direitos/>
         {children}
+        <Direitos/>
       </body>
     </html>
   );
