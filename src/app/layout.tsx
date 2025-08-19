@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className"flex flex-col justify-beetwen h-[100dvh]">
         <Navbar/>
         {children}
         <Direitos/>
